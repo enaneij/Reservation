@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Reservation.Models;
 using System.Diagnostics;
 
@@ -8,11 +8,6 @@ namespace Reservation.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-
-        /// <summary>
-        /// commentaire
-        /// </summary>
-        /// <param name="logger"></param>
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
